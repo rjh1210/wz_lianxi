@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Thrilling Online Survival Game | AIClue</title>
+    <meta name="description" content="Play Monster Survivors online for free - an action-packed survival game where you battle endless waves of monsters with unique abilities and power-ups.">
+    <link rel="canonical" href="https://aiclue.online/monster-survivors">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Monster Survivors - Epic Survival Game">
+    <meta property="og:description" content="Battle endless waves of monsters in this addictive online survival game. Collect power-ups and unlock unique abilities!">
+    <meta property="og:url" content="https://aiclue.online/monster-survivors">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://aiclue.online/images/monster-survivors-preview.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            indigo: '#5856D6',
+                            purple: '#AF52DE',
+                            pink: '#FF2D55',
+                            red: '#FF3B30',
+                            orange: '#FF9500',
+                            yellow: '#FFCC00',
+                            green: '#34C759',
+                            teal: '#5AC8FA',
+                            gray: '#8E8E93',
+                            darkGray: '#636366',
+                            lightGray: '#E5E5EA'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        .game-container {
+            aspect-ratio: 16/9;
+            max-height: 80vh;
+        }
+        @media (max-width: 768px) {
+            .game-container {
+                aspect-ratio: 16/9;
+                height: 50vh;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
+    <header class="bg-apple-blue text-white py-4 shadow-md">
+        <div class="container mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <a href="https://aiclue.online" class="text-2xl font-bold">AIClue Games</a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="https://aiclue.online" class="hover:text-apple-yellow transition">Home</a></li>
+                    <li><a href="#about" class="hover:text-apple-yellow transition">About</a></li>
+                    <li><a href="#controls" class="hover:text-apple-yellow transition">Controls</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 md:px-6 py-8">
+        <section class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-apple-blue">Monster Survivors</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Survive endless waves of monsters in this action-packed adventure game!</p>
+            
+            <div class="game-container w-full border-4 border-apple-blue rounded-lg overflow-hidden shadow-xl mx-auto">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                    class="w-full h-full"
+                    allowfullscreen 
+                    scrolling="no"
+                    frameborder="0">
+                </iframe>
+            </div>
+        </section>
+
+        <section id="about" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-indigo">About Monster Survivors</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <p class="mb-4">Monster Survivors is an exhilarating survival game where you face endless waves of increasingly difficult monsters. Your objective is simple: survive as long as possible while eliminating hordes of enemies.</p>
+                    <p class="mb-4">As you progress through the game, you'll collect valuable power-ups and unlock unique abilities that will help you in your battle against the monster invasion. Each playthrough offers a different experience with procedurally generated enemy patterns.</p>
+                    <p>The game features beautiful pixel art graphics, immersive sound effects, and an addictive gameplay loop that will keep you coming back for more. Can you beat your high score and become the ultimate survivor?</p>
+                </div>
+                <div class="bg-apple-lightGray dark:bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-apple-green">Game Features</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Endless survival gameplay with increasing difficulty</li>
+                        <li>Multiple character classes with unique abilities</li>
+                        <li>Dozens of power-ups and special weapons to discover</li>
+                        <li>Procedurally generated enemy waves for unique experiences</li>
+                        <li>Beautiful retro-inspired graphics and effects</li>
+                        <li>Leaderboards to compete with players worldwide</li>
+                        <li>Regular updates with new content and features</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="controls" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-orange">Game Controls</h2>
+            <div class="bg-apple-lightGray dark:bg-gray-800 p-6 rounded-lg">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 text-apple-pink">Keyboard Controls</h3>
+                        <ul class="space-y-2">
+                            <li><span class="font-bold">WASD</span> - Move your character</li>
+                            <li><span class="font-bold">Space</span> - Dodge/Dash</li>
+                            <li><span class="font-bold">E</span> - Use special ability</li>
+                            <li><span class="font-bold">1-4</span> - Select weapons</li>
+                            <li><span class="font-bold">P</span> - Pause game</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 text-apple-purple">Mobile Controls</h3>
+                        <ul class="space-y-2">
+                            <li><span class="font-bold">Left virtual joystick</span> - Move your character</li>
+                            <li><span class="font-bold">Bottom right button</span> - Attack</li>
+                            <li><span class="font-bold">Top right button</span> - Special ability</li>
+                            <li><span class="font-bold">Double tap</span> - Dodge/Dash</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-teal">Tips & Strategies</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-apple-red">Beginner Tips</h3>
+                    <p>Focus on movement and dodging attacks first. Collect experience points to level up quickly. Choose offensive upgrades early in your run to clear enemies faster.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-apple-orange">Mid-Game Strategy</h3>
+                    <p>Balance your build between offensive and defensive abilities. Always keep moving to avoid being surrounded. Prioritize eliminating stronger monsters first.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-apple-yellow">Advanced Tactics</h3>
+                    <p>Learn enemy spawn patterns to anticipate waves. Create synergies between your weapons and passive abilities. Time your special moves to maximize damage output.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-blue text-white py-8">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">AIClue Games</h3>
+                    <p>Providing quality online gaming experiences with a focus on fun and accessibility.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-apple-yellow transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-apple-yellow transition">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-apple-yellow transition">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-apple-yellow transition">Twitter</a>
+                        <a href="#" class="hover:text-apple-yellow transition">Facebook</a>
+                        <a href="#" class="hover:text-apple-yellow transition">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-blue-700 text-center">
+                <p>&copy; 2023 AIClue.online. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
